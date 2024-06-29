@@ -1,0 +1,11 @@
+# payroll/templates/payroll/email.html
+Subject: Your Payroll for {{ month }} has been released!
+
+Dear {{ user.username }},
+
+Your payroll for {{ month }} has been calculated and released. Your net salary for this month is {{ payroll.net_salary }}.
+
+Please login to your account to view your payroll details.
+
+Best regards,
+[Your Organization Name]
